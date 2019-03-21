@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Конфигуратор серверов</title>
+    <title>Валерия Чернякова</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="https://vk.com/js/api/share.js?95" charset="windows-1251"></script>
 </head>
 <body>
-<h1>Конфигуратор серверов</h1>
+<h1>Чернякова Валерия Павловна</h1>
+<img src="my_photo.jpg" alt="Моя фотография">
+<div id="contacts">
+    <span>Контакты</span>
+    <div>Телефон: +7 (978) 795 14 75</div>
+    <div>Skype: valeriyacher10</div>
+    <div>Email:
+        <a href="mailto:chernv91@gmail.com">chernv91@gmail.com</a>
+    </div>
+</div>
+<div id="portfolio">
+    <span>Примеры работ:</span>
+    <div>
+        <a href="https://github.com/chernv91/tasks_oop">Задачи по ООП</a>
+    </div>
+    <div>
+        <a href="https://github.com/chernv91/server_configurator">Конфигуратор серверов</a>
+    </div>
+    <div>
+        <a href="https://github.com/chernv91/60_tasks">60  задач</a>
+    </div>
+</div>
+<!-- Put this script tag to the place, where the Share button will be -->
+<script type="text/javascript"><!--
+document.write(VK.Share.button(false,{type: "round", text: "Поделиться"}));
+--></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v3.2"></script>
+<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Поделиться</a></div>
+<div id="ok_shareWidget"></div>
+<script>
+    !function (d, id, did, st, title, description, image) {
+        var js = d.createElement("script");
+        js.src = "https://connect.ok.ru/connect.js";
+        js.onload = js.onreadystatechange = function () {
+            if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                if (!this.executed) {
+                    this.executed = true;
+                    setTimeout(function () {
+                        OK.CONNECT.insertShareWidget(id,did,st, title, description, image);
+                    }, 0);
+                }
+            }};
+        d.documentElement.appendChild(js);
+    }(document,"ok_shareWidget",document.URL,'{"sz":30,"st":"rounded","ck":2}',"","","");
+</script>
 </body>
 </html>
