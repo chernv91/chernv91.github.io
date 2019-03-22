@@ -1,4 +1,38 @@
+#content {
+    width: 800px;
+    margin: 10px auto;
+    background-color: rgba(0, 172, 237, 0.3);
+    font-family: "Helvetica Neue", arial, sans-serif;
+    font-size: 15px;
+}
+
 img {
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
+}
+
+#about_me {
+    position: absolute;
+    left: 750px;
+    top: 55px;
+}
+
+.ya-share2 {
+    margin-top: 10px
+}
+
+#disqus_thread {
+    margin-top: 100px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+div.ya-share2 {
+    margin-left: 45px;
+}
+
+.ya-share2__item {
+    padding-right: 3px;
 }
