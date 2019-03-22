@@ -1,9 +1,14 @@
+body {
+    margin: 0;
+}
+
 #content {
     width: 800px;
-    margin: 10px auto;
+    margin: 0 auto;
     background-color: rgba(0, 172, 237, 0.3);
     font-family: "Helvetica Neue", arial, sans-serif;
     font-size: 15px;
+    padding: 10px;
 }
 
 img {
@@ -14,11 +19,11 @@ img {
 #about_me {
     position: absolute;
     left: 750px;
-    top: 55px;
+    top: 65px;
 }
 
 .ya-share2 {
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 #disqus_thread {
@@ -26,7 +31,13 @@ img {
 }
 
 h1, h3 {
+    color: rgb(59, 89, 152);
     text-align: center;
+}
+
+span {
+    color: rgb(101, 108, 122);
+    font-weight: bold;
 }
 
 div.ya-share2 {
